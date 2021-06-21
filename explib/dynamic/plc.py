@@ -1,6 +1,8 @@
 import numpy
+import math
 import matplotlib.pyplot as plt 
-import scipy.integrate as mdl 
+import scipy.integrate as mdl
+
 
 class PLC:
     def __init__(self, gain, step):
